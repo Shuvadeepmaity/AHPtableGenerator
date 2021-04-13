@@ -2,10 +2,13 @@
 Simple interactive Python script that generate a Analitic Hierarchy Process table, it exports a .tex code file and a .pdf file.
 
 ## Requirements
-1. Python 3 installed
-2. numpy package<br/>
+1. LaTeX installed<br/>
+`sudo apt-get install texlive-full`
+2. Python 3.6 installed<br/>
+`python3 -V`
+4. numpy package<br/>
 `pip install numpy`
-3. PyLaTeX package<br/>
+4. PyLaTeX package<br/>
 `pip install pylatex`
 
 ## Installation
