@@ -4,7 +4,7 @@ Simple interactive Python script that generates a Analitic Hierarchy Process tab
 ## Requirements
 1. LaTeX installed<br/>
 `sudo apt-get install texlive-full`
-2. Python 3.6 installed<br/>
+2. Python >= 3.6 installed<br/>
 `python3 -V`
 4. numpy package<br/>
 `pip3 install numpy`
@@ -28,7 +28,7 @@ Simple interactive Python script that generates a Analitic Hierarchy Process tab
 
 ## Example of generated file
 
-Small portion of generated code (indentation not included)
+Small portion of generated code (indentation not included).
 
 ```latex
 \usepackage{booktabs} % Add this line to the preamble (before \begin{document})
@@ -47,4 +47,4 @@ Small portion of generated code (indentation not included)
 	\caption{Table caption}
 \end{table}
 ```
-![Example2](https://raw.github.com/hasecilu/AHPtableGenerator/master/images/example2.png)
+![Example](https://raw.github.com/hasecilu/AHPtableGenerator/master/images/example2.png)
