@@ -1,5 +1,5 @@
 # AHPtableGenerator
-Simple interactive Python script that generate a Analitic Hierarchy Process table, it exports a .tex code file and a .pdf file.
+Simple interactive Python script that generates a Analitic Hierarchy Process table, it exports a fully editable .tex code file and a .pdf file.
 
 ## Requirements
 1. LaTeX installed<br/>
@@ -7,29 +7,32 @@ Simple interactive Python script that generate a Analitic Hierarchy Process tabl
 2. Python 3.6 installed<br/>
 `python3 -V`
 4. numpy package<br/>
-`pip install numpy`
+`pip3 install numpy`
 4. PyLaTeX package<br/>
-`pip install pylatex`
+`pip3 install pylatex`
 
 ## Installation
 `git clone https://github.com/hasecilu/AHPtableGenerator.git`<br/>
 
-## Usage
+## Usage in terminal
 1. Open the folder via terminal<br/>
 `cd AHPtableGenerator`<br/>
 2. Run the script via terminal<br/>
 `python3 AHPtableGenerator.py`<br/>
 3. Follow the instructions in the terminal
 4. Modify the .tex file if needed it and add it to your document
+5. Open the .pdf file<br/>
+`xdg-open filename.pdf`<br/>
+6. View the .tex file<br/>
+`less filename.tex`<br/>
 
 ## Example of generated file
-![Example1](https://raw.github.com/hasecilu/AHPtableGenerator/master/images/example1.png)
-## Example of generated file with manual modifications
-Change `\hline` to `\toprule`, `\midrule` and`\bottomrule` in LaTeX file.<br/>
-Example of table code after some modifications
+
+Small portion of generated code (indentation not included)
+
 ```latex
 \usepackage{booktabs} % Add this line to the preamble (before \begin{document})
-
+...
 \begin{table}[!ht]
 	\centering
 	\begin{tabular}{ccccccc}
