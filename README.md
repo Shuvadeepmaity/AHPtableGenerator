@@ -20,11 +20,11 @@ Simple interactive Python script that generates a Analitic Hierarchy Process tab
 2. Run the script via terminal<br/>
 `python3 AHPtableGenerator.py`<br/>
 3. Follow the instructions in the terminal
-4. Modify the .tex file if needed it and add it to your document
-5. Open the .pdf file<br/>
+4. Open the .pdf file<br/>
 `xdg-open filename.pdf`<br/>
-6. View the .tex file<br/>
+5. View the .tex file<br/>
 `less filename.tex`<br/>
+6. Modify the .tex file if needed it and add it to your document
 
 ## Example of generated file
 
@@ -48,3 +48,4 @@ Small portion of generated code (indentation not included).
 \end{table}
 ```
 ![Example](https://raw.github.com/hasecilu/AHPtableGenerator/master/images/example2.png)
+
