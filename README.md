@@ -31,7 +31,12 @@ Simple interactive Python script that generates a Analitic Hierarchy Process tab
 1. Open the folder via terminal<br/>
 `cd AHPtableGenerator`<br/>
 2. Run the script via terminal<br/>
-`python3 AHPtableGenerator.py`<br/>
+`python3 AHPtableGenerator.py`
+or<br/>
+```
+source ~/.venvs/PyLaTeXvenv/bin/activate
+python3 AHPtableGenerator.py
+```
 3. Follow the instructions in the terminal
 4. Open the .pdf file<br/>
 `xdg-open filename.pdf`<br/>
