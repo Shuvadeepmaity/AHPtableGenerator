@@ -20,7 +20,7 @@ import os
 # Ingreso de datos # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 print('''\n\t\t\tようこうそ\n\n
 Bienvenido al asistente para generar tablas de resultados mediante 
-el Proceso Analítico Jerárquico (AHP - Analitic Hierarchy Process).
+el Proceso Analítico Jerárquico (AHP - Analytic Hierarchy Process).
 \n\t\t\t\tBy: @hasecilu ft. El Inge MX\n''')
 
 cadena = (input('Ingrese los elementos separados por espacio. Ejemplo: "Red Green Blue"\n\n-> ').split(" "))
