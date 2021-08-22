@@ -2,14 +2,27 @@
 Simple interactive Python script that generates a Analitic Hierarchy Process table, it exports a fully editable .tex code file and a .pdf file.
 
 ## Requirements
+
 1. LaTeX installed<br/>
 `sudo apt-get install texlive-full`
 2. Python >= 3.6 installed<br/>
 `python3 -V`
-4. numpy package<br/>
+3. numpy package<br/>
 `pip3 install numpy`
 4. PyLaTeX package<br/>
 `pip3 install pylatex`
+
+### For the venv enjoyers
+1. Move to your venv folder<br/>
+`cd ~/.venv`
+2. Create the venv<br/>
+`python3 -m venv PyLaTeXvenv`
+3. Activate the virtual enviroment<br/>
+`source PyLaTeXvenv/bin/activate`
+4. Install the required packages<br/>
+`pip install -r requirements.txt`
+5. View the installed packages<br/>
+`pip3 list`
 
 ## Installation
 `git clone https://github.com/hasecilu/AHPtableGenerator.git`<br/>
