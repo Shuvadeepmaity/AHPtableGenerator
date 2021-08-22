@@ -105,7 +105,7 @@ if __name__ == '__main__':
     geometry_options = {"tmargin": "1cm", "lmargin": "1cm"}
     doc = Document(geometry_options=geometry_options)
     
-    with doc.create(Section('Proceso Analítico Jerárquico (AHP - Analitic Hierarchy Process)')):
+    with doc.create(Section('Proceso Analítico Jerárquico (AHP - Analytic Hierarchy Process)')):
         
         # Para poder usar \toprule, \midrule y \bottomrule
         doc.preamble.append(NoEscape("\\usepackage{booktabs}"))
