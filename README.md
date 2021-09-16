@@ -46,7 +46,7 @@ Simple interactive Python script that generates a Analitic Hierarchy Process tab
 		python3 AHPtableGenerator.py
 or<br/>
 
-	source ~/.venvs/PyLaTeXvenv/bin/activate\
+	source ~/.venvs/PyLaTeXvenv/bin/activate
 	python3 AHPtableGenerator.py
 
 3. Follow the instructions in the terminal
